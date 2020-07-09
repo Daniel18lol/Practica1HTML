@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  vertical-align: middle;
+}
+section > img {
+  width: 200px;
+  height: 200px;
+}
+#section1 > img {
+  float: right;
+}
+#section2 > img {
+  float: left;
+}
